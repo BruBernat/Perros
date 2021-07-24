@@ -1,0 +1,147 @@
+html{
+	background-color: rgb(43, 43, 43);
+	margin: 20px;
+	font-family: Cocogoose Pro Trial;
+}
+@font-face {
+	font-family: Cocogoose Pro Trial;
+	src: url(Cocogoose\ Pro-trial.ttf);
+}
+
+
+header{
+	background-color: oldlace;
+	width: 95%;
+	padding: 30px ;
+	border: 10px solid oldlace;
+	border-radius: 40px;
+	margin-bottom: 20px;
+}
+
+/*nav{
+	background-color: oldlace;
+	width: 95%;
+	padding: 30px;
+	border: 10px solid oldlace;
+	border-radius: 40px;
+	margin-bottom: 20px;
+	
+}
+nav a{
+    text-decoration:none;
+    color:rgb(43, 43, 43);
+    font-size:14px;
+} 
+    nav li{
+	align-items: space-evenly;
+    display: inline-flex;
+	justify-content: space-evenly;
+	width:20%;
+    padding:10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }*/
+
+	.enlace{
+		background-color: teal;
+		display: inline-block;
+		color: blanchedalmond;
+		padding: 10px 30px;
+		text-decoration:none;
+	}
+	.enlace:hover{
+		color: aqua;
+	}
+	nav{
+		background-color: teal;
+		padding: 10px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	@media (max-width: 600px) {
+		nav{
+		flex-direction:column;
+		}
+		.enlace{
+			margin: 10px;
+		}
+	}
+
+section{
+	background-color: oldlace;
+	width: 95%;
+	padding: 30px ;
+	border: 10px solid oldlace;
+	border-radius: 40px;
+	margin-bottom: 20px;
+}
+
+footer{
+	background-color: oldlace;
+	width: 95%;
+	padding: 30px ;
+	border: 10px solid oldlace;
+	 ;
+	border-radius: 40px;
+	margin-bottom: 20px;
+}
+img{
+	background-color: rgb(179, 142, 73);
+	border: 10px solid rgb(173, 132, 54);
+	border-radius: 40px;
+	margin-bottom: 20px;
+}
+.info{
+	background-color: seagreen;
+	padding: 20px;
+	color: sienna;
+	margin: 20px;
+}
+.padre{
+	display: flex;
+}
+button{
+	background-color: cadetblue;
+}
+button:hover{
+	background-color: rgb(8, 91, 94);
+}
+/*.caja_padre{
+	width: 500px;
+	height: 500px;
+	background: rgb(136, 55, 55);
+	position: relative;
+	postion: absolute;
+	postion: fixed;
+	.caja{
+	position:fixed;
+	top: 800px;
+	bottom:0;
+	right:0;
+	left:1080;
+.caja2
+	position:static;
+	top: 800px;
+	bottom:0;
+	right:0;
+	left:1080;*/
+
+div{
+	background-color: oldlace;
+	width: 95%;
+	padding: 30px ;
+	border: 10px solid oldlace;
+	border-radius: 40px;
+	margin-bottom: 20px;
+
+}
+
+	  
+	  
